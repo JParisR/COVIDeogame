@@ -1,0 +1,19 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: COVIDeogame
+  tags:
+    - java
+    - playback
+  description: Videogame 
+  links:
+    - url: https://empathy.co
+      title: Empathy web
+      icon: dashboard
+  annotations:
+    backstage.io/techdocs-ref: value
+    github.com/project-slug: JParisR/COVIDeogame
+spec:
+  type: app
+  lifecycle: production
+  owner: team-a
